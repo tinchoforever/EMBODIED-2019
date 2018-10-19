@@ -1,6 +1,5 @@
 (function($) {
-  "use strict"; // Start of use strict
-
+  
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -40,3 +39,17 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
+
+setTimeout(function(){
+ $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        slideshow: true,
+        itemWidth: 150,
+        itemMargin: 30,
+        minItems: 2,
+        maxItems: 4
+        
+      });
+},2500);

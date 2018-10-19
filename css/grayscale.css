@@ -318,3 +318,24 @@ img.logo{
   background: #23324a;
     padding: 1em;
 }
+.flexslider{
+  background: transparent;
+  margin: 1em;
+}
+.flexslider .slides{
+  background: transparent;
+      padding: 1em;
+
+}
+.flexslider .slides img {
+  padding: 2em;
+   max-width: 100%;
+  height: auto; 
+}
+
+.flexslider .slides li div{
+      display: flex;
+      height: 150px;
+    justify-content: center;
+    align-items: center;
+}
